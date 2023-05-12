@@ -65,7 +65,7 @@ class HomePage extends StatelessWidget {
                   },
                 ),
                 ListTile(
-                  leading : Image.asset('lib/icons/transaction.png'),
+                  leading: Image.asset('lib/icons/transaction.png'),
                   title: const Text("View Wallet History"),
                 ),
                 // ListTile(
@@ -246,6 +246,34 @@ class HomePage extends StatelessWidget {
                         ),
                       ),
                     ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(30.0),
+                  child: Align(
+                    alignment: Alignment.bottomRight,
+                    child: ElevatedButton.icon(
+                      onPressed: () {
+                        // add button functionality here
+                        // Navigator.push(
+                        //     context,
+                        //     MaterialPageRoute(
+                        //       builder: (context) => ChatScreen(),
+                        //     ),
+                      },
+                      icon: const Icon(Icons.chat_bubble, size: 30,),
+                      label: const Text(
+                        'QnA',
+                        style: TextStyle(
+                          color: Color.fromARGB(255, 255, 255, 255),
+                          fontSize: 18.0,
+                        ),
+                      ),
+                      style: ElevatedButton.styleFrom(
+                        minimumSize: const Size(50.0, 50.0),
+                        backgroundColor: Colors.deepPurple[300],
+                      ),
+                    ),
                   ),
                 ),
               ],
