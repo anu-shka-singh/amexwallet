@@ -5,6 +5,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:provider/provider.dart';
 
+import 'chat_screen.dart';
 import 'screens/welcome_screen.dart';
 
 class HomePage extends StatelessWidget {
@@ -255,13 +256,17 @@ class HomePage extends StatelessWidget {
                     child: ElevatedButton.icon(
                       onPressed: () {
                         // add button functionality here
-                        // Navigator.push(
-                        //     context,
-                        //     MaterialPageRoute(
-                        //       builder: (context) => ChatScreen(),
-                        //     ),
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => ChatBotScreen(),
+                          ),
+                        );
                       },
-                      icon: const Icon(Icons.chat_bubble, size: 30,),
+                      icon: const Icon(
+                        Icons.chat_bubble,
+                        size: 30,
+                      ),
                       label: const Text(
                         'QnA',
                         style: TextStyle(
