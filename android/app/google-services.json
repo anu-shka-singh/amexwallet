@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "780124385145",
+    "project_id": "amex-ewallet",
+    "storage_bucket": "amex-ewallet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780124385145:android:e88fdd9e7443ccabd609a8",
+        "android_client_info": {
+          "package_name": "com.example.amexwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780124385145-krv8t4lasfj4vbp3oj5nll8opctv1kpm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOzqJj1FNKvk-PpMPq9lUTLHA_CT24r-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780124385145-krv8t4lasfj4vbp3oj5nll8opctv1kpm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
